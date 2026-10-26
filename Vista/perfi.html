@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre mí - Mi Perfil Web</title>
+    <link rel="stylesheet" href="../Assets/css/estilos.css">
+</head>
+
+<body>
+
+    <nav aria-label="Navegación principal" class="menu-navegacion">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#titulo-perfil">Sobre mí</a></li>
+            <li><a href="#ventana-habilidades">Habilidades</a></li>
+            <li><a href="#ventana-proyectos">Proyectos</a></li>
+            <li><a href="#ventana-contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+   
+    <main>
+        <section class="contenedor" aria-current="título-perfil">
+            <article class="item">
+                <p>Un poco sobre mí</p>
+                <h1 id="titulo-perfil">Sobre mí</h1>
+                <h2>Doris Alicia Carvajal Gonzalez</h2>
+                <img class="foto-perfil" src="../Assets/img/image.png" alt="Doris">
+                <p>
+                    Soy aprendiz del SENA en el tecnólogo de Análisis y Desarrollo de Software (ADSO).
+                    Decidí continuar con esta rama ya que en el colegio estuve en la especialidad de informática e
+                    internet y me gustó mucho aprender sobre la tecnología, entender un poco el trasfondo de las páginas
+                    y de las aplicaciones ya que es algo que utilizamos día tras día.
+                </p>
+                <p>
+                    Me interesa continuar aprendiendo sobre programación, bases de datos y buenas prácticas
+                    para crear un buen software; me gusta aprender cosas nuevas y fortalecer los conocimientos ya
+                    adquiridos.
+                </p>
+
+                <div class="contenedor-volver">
+                    <a href="../Vista/index.html">← Volver al inicio</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    
+    <dialog class="ventana-habilidades" id="ventana-habilidades" aria-labelledby="titulo-habilidades">
+        <div class="ventana-contenido">
+            <button class="ventana-cerrar" type="button" aria-label="Cerrar ventana">&times;</button>
+            <p class="ventana-etiqueta">Lo que he aprendido</p>
+            <h2 id="titulo-habilidades">Mis Habilidades</h2>
+            <p class="ventana-descripcion">Algunas tecnologías y herramientas con las que he trabajado:</p>
+            <ul class="habilidades-lista">
+                <li class="habilidad-tarjeta">
+                    <h3>JavaScript</h3>
+                    <p>Lógica de programación e interactividad dinámica para páginas y componentes web modernos.</p>
+                </li>
+                <li class="habilidad-tarjeta">
+                    <h3>.NET</h3>
+                    <p>Desarrollo robusto de aplicaciones backend y web utilizando el ecosistema y los patrones de arquitectura de .NET.</p>
+                </li>
+                <li class="habilidad-tarjeta">
+                    <h3>SQL Server</h3>
+                    <p>Diseño, modelado y administración de bases de datos relacionales, garantizando la seguridad y la correcta gestión de los datos.</p>
+                </li>
+                <li class="habilidad-tarjeta">
+                    <h3>MySQL</h3>
+                    <p>Gestión eficiente de datos, consultas estructuradas (SQL) y optimización para el soporte de proyectos web dinámicos.</p>
+                </li>
+                <li class="habilidad-tarjeta">
+                    <h3>HTML</h3>
+                    <p>Creación de la estructura semántica esencial y organización óptima del contenido para páginas web accesibles.</p>
+                </li>
+                <li class="habilidad-tarjeta">
+                    <h3>C#</h3>
+                    <p>Fundamentos sólidos de programación orientada a objetos y desarrollo de soluciones de software eficientes y escalables.</p>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+   
+    <dialog class="ventana-proyectos" id="ventana-proyectos" aria-labelledby="titulo-proyectos">
+        <div class="ventana-contenido">
+            <button class="ventana-cerrar" type="button" aria-label="Cerrar ventana">&times;</button>
+            <p class="ventana-etiqueta">Proyecto grupal</p>
+            <h2 id="titulo-proyectos">WIPACER</h2>
+
+            <img class="proyecto-admi" src="../Assets/img/94127.jpg" alt="Página Administrador WIPACER">
+
+            <div class="proyecto-detalles">
+                <article class="habilidad-tarjeta proyecto-tarjeta">
+                    <h3>Objetivo</h3>
+                    <p>Que las empresas encuentren todo lo que necesitan en una sola aplicación.</p>
+                </article>
+                <article class="habilidad-tarjeta proyecto-tarjeta">
+                    <h3>Descripción</h3>
+                    <p>Gestionar productos, contabilidad, administración, facturación y materia prima en un solo lugar.</p>
+                </article>
+                <article class="habilidad-tarjeta proyecto-tarjeta">
+                    <h3>Mi participación</h3>
+                    <p>Me encargué del módulo de inventario y materia prima, tanto en diseño visual como en la lógica.</p>
+                </article>
+                <article class="habilidad-tarjeta proyecto-tarjeta">
+                    <h3>Tecnologías</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>.NET MVC</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </dialog>
+
+
+    <dialog class="ventana-contacto" id="ventana-contacto" aria-labelledby="titulo-contacto">
+        <div class="ventana-contenido">
+            <button class="ventana-cerrar" type="button" aria-label="Cerrar ventana de contacto">&times;</button>
+            <p class="ventana-etiqueta">Ponte en contacto</p>
+            <h2 id="titulo-contacto">Contacto</h2>
+
+            <div class="contacto-lista">
+                <article class="habilidad-tarjeta">
+                    <h3>Correo académico</h3>
+                    <p>doriscarvajal@sena.edu.co</p>
+                </article>
+                <article class="habilidad-tarjeta">
+                    <h3>Teléfono</h3>
+                    <p>3214568796</p>
+                </article>
+                <article class="habilidad-tarjeta">
+                    <h3>Teléfono alternativo</h3>
+                    <p>3157864859</p>
+                </article>
+                <article class="habilidad-tarjeta">
+                    <h3>Instagram</h3>
+                    <p>doris.alicia</p>
+                </article>
+            </div>
+        </div>
+    </dialog>
+
+    <script>
+        // Manejo de botones para cerrar modales
+        document.querySelectorAll("dialog").forEach((ventana) => {
+            const botonCerrar = ventana.querySelector(".ventana-cerrar");
+
+            if (botonCerrar) {
+                botonCerrar.addEventListener("click", () => ventana.close());
+            }
+        });
+
+        function abrirDialogoDeHash() {
+            const idHash = window.location.hash.slice(1);
+            if (idHash) {
+                const destino = document.getElementById(idHash);
+                if (destino instanceof HTMLDialogElement) {
+                    document.querySelectorAll("dialog").forEach(d => {
+                        if (d.open && d !== destino) d.close();
+                    });
+                    
+                    if (!destino.open) {
+                        destino.showModal();
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("DOMContentLoaded", abrirDialogoDeHash);
+        window.addEventListener("hashchange", abrirDialogoDeHash);
+    </script>
+</body>
+
+</html>
